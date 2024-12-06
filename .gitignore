@@ -1,0 +1,43 @@
+# Archivos de sistema y temporales
+AppData/
+*.log
+*.tmp
+
+# Archivos generados
+target/
+bin/
+build/
+*.class
+
+# Archivos específicos de Maven
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Archivos específicos de IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Archivos específicos de NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Archivos específicos de Visual Studio Code
+.vscode/
+
+# Archivos específicos de Spring Tool Suite (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Otros archivos a ignorar
+HELP.md  # Si no necesitas este archivo en tu repositorio
